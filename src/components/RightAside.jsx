@@ -4,11 +4,11 @@ import girl from "../assets/images/hero-desktop.jpg";
 
 const RightAside = () => {
   return (
-    <div className="z-10 overflow-hidden relative h-[770px] w-[40%]">
+    <div className="z-10 overflow-hidden relative lg:w-[40%] lg:min-h-screen ">
       <img
         src={girl}
         alt="girl"
-        className="z-20 absolute object-cover h-full w-full"
+        className="z-20 lg:absolute object-cover lg:h-full lg:w-full"
       />
     </div>
   );

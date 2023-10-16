@@ -6,8 +6,8 @@ import bg from "./assets/images/bg-pattern-desktop.svg";
 function App() {
   return (
     <>
-      <main className="flex flex-row justify-center bg-[#fff9f9] overflow-hidden font-Josefin">
-        <div className="flex flex-row justify-center items-center relative w-[1440px] h-[770px]">
+      <main className="flex flex-col lg:flex-row justify-center min-h-screen bg-[#fff9f9] overflow-hidden font-Josefin">
+        <div className="flex flex-col lg:flex-row justify-center items-center w-full relative">
           <img
             src={bg}
             alt="bg"
